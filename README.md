@@ -1,4 +1,4 @@
-# StuartHua's Blog
+# jekyll-hux-theme
 
 ## 常用命令
 
