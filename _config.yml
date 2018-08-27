@@ -4,18 +4,14 @@ auther: Stuart Hua
 SEOTitle: Stuart Hua's Blog
 header-img: img/home-bg.jpg
 email: stuarthua.cn@gmail.com
-description: "关于技术、产品、生活、思考 | Stuard Hua，Android Engineer"
-keyword: "stuart, stuarthua, StuartHua, Stuart Hua, @stuarthua, @StuartHua, @Stuart Hua, Stuart Hua's Blog, android, Android, 产品, 技术, 思考, 生活, 个人博客, 个人网站, 互联网"
+description: "关于技术、产品、生活 | Stuard Hua, Engineer"
+keyword: "产品, 技术, 生活"
 url: "https://blog.stuarthua.com"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
-# Publish posts or collection documents with a future date.
-future: true
-
-
 # SNS settings
-RSS: false
+RSS: true
 # weibo_username: 339719222
 # zhihu_username: stuarthua
 github_username: stuarthua
@@ -24,30 +20,17 @@ facebook_username: stuarthua.sir
 # linkedin_username:  firstname-lastname-idxxxx
 
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
+# Friends settings
+friends: [
+    {
+        title: "Stuart Hua",
+        href: "https://blog.stuarthua.com"
+    },{
+        title: "Github",
+        href: "https://github.com"
+    }
+]
 
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate, rouge]
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-highlighter: rouge
 
 # Disqus settings
 # disqus_username: stuarthua
@@ -61,19 +44,53 @@ highlighter: rouge
 # Baidu Analytics
 # ba_track_id: 15604eac1992a89871cd85f2cd425d50
 
-
 # Google Analytics
 # ga_track_id: 'UA-55082727-2'            # Format: UA-xxxxxx-xx
 # ga_domain: stuarthua.com
 
 
-# Google Adsense
+# Google Adsense settings
 # google_ad_client: 'ca-pub-6137478455292280'
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Rethink to be Better!"
 sidebar-avatar: /img/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# *********************************************************************** #
+# ************************  以下内容，尽量不做更改  ************************* #
+# *********************************************************************** #
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+plugins: [jekyll-paginate, rouge]
+
+
+# Publish posts or collection documents with a future date.
+future: true
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+highlighter: rouge
 
 
 # Featured Tags
@@ -86,21 +103,10 @@ chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
-# Friends
-# friends: [
-#     {
-#         title: "Example Friends",
-#         href: "#"
-#     },{
-#         title: "It helps SEO",
-#         href: "#"
-#     }
-# ]
-
-
 # Exclude from processing.
 exclude:
   - Gruntfile.js
   - package.json
   - LICENSE
   - README.md
+  - screenshot.jpg
