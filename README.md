@@ -82,6 +82,8 @@
     sidebar-about-description: "Rethink to be Better!"
     sidebar-avatar: /img/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
     ```
+
+3. Config `about` on `/_includes/about/zh.md`, `/_includes/about/en.md`
     
 ## License
 
