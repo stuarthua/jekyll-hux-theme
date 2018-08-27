@@ -17,7 +17,7 @@
 
     ```
     $ git clone git@github.com:stuarthua/jekyll-hux-theme.git
-    $ gem install jekyll jekyll-paginate rouge
+    $ gem install jekyll-paginate rouge
     ```
 
 2. Then, custom config file `_config.yml`:
