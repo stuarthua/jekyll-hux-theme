@@ -2,7 +2,7 @@
 
 >clean style theme
 
-![Screenshot](/screenshot.png)
+![Screenshot](/screenshot.jpg)
 
 ## 参考
 
