@@ -11,5 +11,3 @@ Simple, as a programmer.
 ### Freedom
 
 >Enjoy work, fight for [freedom](https://en.wikipedia.org/wiki/Braveheart)
-
-![freedom](http://res.stuarthua.com/braveheart.jpg)
