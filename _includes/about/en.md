@@ -1,13 +1,16 @@
-### About Me
+### About
 
-> Life Lovers / Poet / Android
+> Life Lovers / Engineer
 
-I always feel that blog should have such a sequence.
+Like a book, like a lifetime, also like a poem.
 
-Like writing a book, like life, also like a poem.
+### Contact
 
-Simple, as a programmer.
+* [Email](mailto:stuarthua.cn@gmail.com)
+* <a target="_blank" href="https://t.me/stuarthua">Telegram</a>
 
 ### Freedom
 
 >Enjoy work, fight for [freedom](https://en.wikipedia.org/wiki/Braveheart)
+
+![freedom](/assets/img/braveheart.jpg)

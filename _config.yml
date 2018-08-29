@@ -2,10 +2,10 @@
 title: Stuart Hua's Blog
 auther: Stuart Hua
 SEOTitle: Stuart Hua's Blog
-header-img: img/home-bg.jpg
+header-img: assets/theme/home-bg.jpg
 email: stuarthua.cn@gmail.com
-description: "关于技术、产品、生活 | Stuard Hua, Engineer"
-keyword: "产品, 技术, 生活"
+description: "关于技术、产品、生活、思考 | Life Lovers / Engineer"
+keyword: "StuartHua, 产品, 技术, 生活, 思考, Life Lovers, Engineer"
 url: "https://blog.stuarthua.com"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -21,19 +21,19 @@ facebook_username: stuarthua.sir
 
 
 # Friends settings
-friends: [
-    {
-        title: "Stuart Hua",
-        href: "https://blog.stuarthua.com"
-    },{
-        title: "Github",
-        href: "https://github.com"
-    }
-]
+# friends: [
+#     {
+#         title: "Stuart Hua",
+#         href: "https://blog.stuarthua.com"
+#     },{
+#         title: "Github",
+#         href: "https://github.com"
+#     }
+# ]
 
 
 # Disqus settings
-# disqus_username: stuarthua
+disqus_username: stuarthua
 
 
 # Netease settings
@@ -55,7 +55,7 @@ friends: [
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Rethink to be Better!"
-sidebar-avatar: /img/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /assets/theme/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # *********************************************************************** #
@@ -99,7 +99,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: true
+service-worker: false
 
 
 # Exclude from processing.

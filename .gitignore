@@ -9,3 +9,7 @@ _site
 .MWebMetaData
 node_modules
 npm-debug.log
+
+.htaccess
+.user.ini
+.well-known/
