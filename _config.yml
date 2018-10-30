@@ -45,12 +45,12 @@ disqus_username: stuarthua
 # ba_track_id: 15604eac1992a89871cd85f2cd425d50
 
 # Google Analytics
-# ga_track_id: 'UA-55082727-2'            # Format: UA-xxxxxx-xx
-# ga_domain: stuarthua.com
+# ga_track_id: 'UA-xxxxxxx-xx'            # Format: UA-xxxxxx-xx
+# ga_domain: xxxxx.com
 
 
 # Google Adsense settings
-# google_ad_client: 'ca-pub-6137478455292280'
+# google_ad_client: 'xxxxxxx-xxxxx-xx'
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
