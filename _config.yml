@@ -6,8 +6,8 @@ header-img: assets/theme/img/home-bg.jpg
 email: stuarthua.cn@gmail.com
 description: "关于技术、产品、生活、思考 | Life Lovers / Engineer"
 keyword: "StuartHua, 产品, 技术, 生活, 思考, Life Lovers, Engineer"
-url: "https://xxxxxx.com"              # your host, for absolute URL
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://blog.stuarthua.com"              # your host, for absolute URL
+baseurl: "/jekyll-hux-theme"                   # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
