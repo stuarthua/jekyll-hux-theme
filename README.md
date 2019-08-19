@@ -1,10 +1,10 @@
 # jekyll-hux-theme
 
->clean style theme
+> clean style theme
 
-![Screenshot](/screenshot.jpg)
+![Screenshot](/screenshot.png)
 
-## 参考
+## Reference
 
 * [Huxpro](https://github.com/Huxpro/huxpro.github.io)
 * [jekyll-search](https://github.com/androiddevelop/jekyll-search)
@@ -27,14 +27,14 @@
     title: Stuart Hua's Blog
     auther: Stuart Hua
     SEOTitle: Stuart Hua's Blog
-    header-img: img/home-bg.jpg
+    header-img: assets/theme/img/home-bg.jpg
     email: stuarthua.cn@gmail.com
-    description: "关于技术、产品、生活 | Stuard Hua, Engineer"
-    keyword: "产品, 技术, 生活"
-    url: "https://blog.stuarthua.com"              # your host, for absolute URL
+    description: "关于技术、产品、生活、思考 | Life Lovers / Engineer"
+    keyword: "StuartHua, 产品, 技术, 生活, 思考, Life Lovers, Engineer"
+    url: "https://xxxxxx.com"              # your host, for absolute URL
     baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
-
-
+    
+    
     # SNS settings
     RSS: true
     # weibo_username: 339719222
@@ -43,44 +43,45 @@
     twitter_username: stuarthua_sir
     facebook_username: stuarthua.sir
     # linkedin_username:  firstname-lastname-idxxxx
-
-
+    
+    
     # Friends settings
-    friends: [
-        {
-            title: "Stuart Hua",
-            href: "https://blog.stuarthua.com"
-        },{
-            title: "Github",
-            href: "https://github.com"
-        }
-    ]
-
-
+    # friends: [
+    #     {
+    #         title: "Stuart Hua",
+    #         href: "https://blog.stuarthua.com"
+    #     },{
+    #         title: "Github",
+    #         href: "https://github.com"
+    #     }
+    # ]
+    
+    
     # Disqus settings
-    # disqus_username: stuarthua
-
-
+    disqus_username: stuarthua
+    
+    
     # Netease settings
     # netease_comment: false
-
-
+    
+    
     # Analytics settings
     # Baidu Analytics
-    # ba_track_id: 15604eac1992a89871cd85f2cd425d50
-
+    # ba_track_id: xxxxxx
+    
+    
     # Google Analytics
-    # ga_track_id: 'UA-55082727-2'            # Format: UA-xxxxxx-xx
-    # ga_domain: stuarthua.com
-
-
+    # ga_track_id: 'UA-xxxxxxx-xx'            # Format: UA-xxxxxx-xx
+    # ga_domain: xxxxx.com
+    
+    
     # Google Adsense settings
-    # google_ad_client: 'ca-pub-6137478455292280'
-
+    # google_ad_client: 'xxxxxxx-xxxxx-xx'
+    
     # Sidebar settings
     sidebar: true                           # whether or not using Sidebar.
     sidebar-about-description: "Rethink to be Better!"
-    sidebar-avatar: /img/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
+    sidebar-avatar: /assets/theme/img/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
     ```
 
 3. Config `about` on `/_includes/about/zh.md`, `/_includes/about/en.md`

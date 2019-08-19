@@ -13,4 +13,4 @@ Like a book, like a lifetime, also like a poem.
 
 >Enjoy work, fight for [freedom](https://en.wikipedia.org/wiki/Braveheart)
 
-![freedom](/assets/img/braveheart.jpg)
+![freedom](/assets/theme/img/braveheart.jpg)

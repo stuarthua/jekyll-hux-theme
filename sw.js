@@ -15,19 +15,23 @@ const CACHE = CACHE_NAMESPACE + 'precache-then-runtime';
 const PRECACHE_LIST = [
   "./",
   "./offline.html",
-  "./assets/js/jquery.min.js",
-  "./assets/js/bootstrap.min.js",
-  "./assets/js/hux-blog.min.js",
-  "./assets/js/snackbar.js",
-  "./assets/theme/avatar-stuart.jpg",
-  "./assets/theme/home-bg.jpg",
-  "./assets/theme/404-bg.jpg",
-  "./assets/css/hux-blog.min.css",
-  "./assets/css/syntax.css",
-  "./assets/css/bootstrap.min.css"
+  "./assets/theme/js/jquery.min.js",
+  "./assets/theme/js/bootstrap.min.js",
+  "./assets/theme/js/hux-blog.min.js",
+  "./assets/theme/js/snackbar.js",
+  "./assets/theme/img/avatar-stuart.jpg",
+  "./assets/theme/img/home-bg.jpg",
+  "./assets/theme/img/404-bg.jpg",
+  "./assets/theme/css/hux-blog.min.css",
+  "./assets/theme/css/bootstrap.min.css"
+  // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css",
+  // "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3",
+  // "//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"
 ]
 const HOSTNAME_WHITELIST = [
-  self.location.hostname
+  self.location.hostname,
+  "stuarthua.com",
+  "cdnjs.cloudflare.com"
 ]
 const DEPRECATED_CACHES = ['precache-v1', 'runtime', 'main-precache-v1', 'main-runtime']
 

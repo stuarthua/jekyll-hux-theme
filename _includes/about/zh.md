@@ -13,4 +13,4 @@
 
 >Enjoy work, fight for [freedom](https://zh.wikipedia.org/zh-hans/%E5%8B%87%E6%95%A2%E7%9A%84%E5%BF%83)
 
-![freedom](/assets/img/braveheart.jpg)
+![freedom](/assets/theme/img/braveheart.jpg)

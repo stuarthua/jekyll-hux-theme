@@ -2,12 +2,12 @@
 title: Stuart Hua's Blog
 auther: Stuart Hua
 SEOTitle: Stuart Hua's Blog
-header-img: assets/theme/home-bg.jpg
+header-img: assets/theme/img/home-bg.jpg
 email: stuarthua.cn@gmail.com
 description: "关于技术、产品、生活、思考 | Life Lovers / Engineer"
 keyword: "StuartHua, 产品, 技术, 生活, 思考, Life Lovers, Engineer"
 url: "https://xxxxxx.com"              # your host, for absolute URL
-baseurl: "/jekyll-hux-theme"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 # SNS settings
@@ -42,7 +42,8 @@ disqus_username: stuarthua
 
 # Analytics settings
 # Baidu Analytics
-# ba_track_id: 15604eac1992a89871cd85f2cd425d50
+# ba_track_id: xxxxxx
+
 
 # Google Analytics
 # ga_track_id: 'UA-xxxxxxx-xx'            # Format: UA-xxxxxx-xx
@@ -55,7 +56,7 @@ disqus_username: stuarthua
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Rethink to be Better!"
-sidebar-avatar: /assets/theme/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /assets/theme/img/avatar-stuart.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # *********************************************************************** #
@@ -64,19 +65,16 @@ sidebar-avatar: /assets/theme/avatar-stuart.jpg  # use absolute URL, seeing it's
 
 
 # Gems
-# from PR#40, to support local preview for Jekyll 3.0
-plugins: [jekyll-paginate, rouge]
-
-
-# Publish posts or collection documents with a future date.
-future: true
+# make sure you have these gem plugins installed
+# `$ gem install jekyll-paginate rouge`
+plugins: [jekyll-paginate,  rouge]
 
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
+exclude: ["Gruntfile.js", "README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN
@@ -88,8 +86,13 @@ anchorjs: true                          # if you want to customize anchor. check
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-highlighter: rouge
+  input: GFM
+  syntax_highlighter: rouge
+  coderay_default_lang: ruby
+
+
+# Publish posts or collection documents with a future date.
+future: true
 
 
 # Featured Tags
@@ -102,12 +105,5 @@ chrome-tab-theme-color: "#000000"
 service-worker: false
 
 
-# Exclude from processing.
-exclude:
-  - less
-  - node_modules
-  - Gruntfile.js
-  - package.json
-  - LICENSE
-  - README.md
-  - screenshot.jpg
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
