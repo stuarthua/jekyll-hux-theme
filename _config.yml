@@ -21,15 +21,15 @@ facebook_username: stuarthua.sir
 
 
 # Friends settings
-# friends: [
-#     {
-#         title: "Stuart Hua",
-#         href: "https://blog.stuarthua.com"
-#     },{
-#         title: "Github",
-#         href: "https://github.com"
-#     }
-# ]
+friends: [
+    {
+        title: "Stuart Hua",
+        href: "https://blog.stuarthua.com"
+    },{
+        title: "github/stuarthua",
+        href: "https://github.com/stuarthua"
+    }
+]
 
 
 # Disqus settings
