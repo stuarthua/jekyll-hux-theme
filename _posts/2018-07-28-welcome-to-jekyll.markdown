@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-07-28 02:47:38 +0800
 tag: jekyll
+header-img: "assets/img/post-bg-2018.jpg"
 permalink: /page/welcome-jekyll.html
 ---
 
