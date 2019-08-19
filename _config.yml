@@ -23,11 +23,11 @@ facebook_username: stuarthua.sir
 # Friends settings
 friends: [
     {
-        title: "Stuart Hua",
-        href: "https://blog.stuarthua.com"
+        title: "stuarthua.github.io",
+        href: "https://stuarthua.github.io"
     },{
-        title: "github/stuarthua",
-        href: "https://github.com/stuarthua"
+        title: "blog.stuarthua.com",
+        href: "https://blog.stuarthua.com"
     }
 ]
 
